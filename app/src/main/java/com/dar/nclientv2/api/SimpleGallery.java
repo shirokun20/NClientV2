@@ -1,7 +1,5 @@
 package com.dar.nclientv2.api;
 
-import static android.graphics.Bitmap.CompressFormat.WEBP;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.database.Cursor;

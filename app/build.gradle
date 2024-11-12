@@ -4,10 +4,10 @@ android {
     compileSdkVersion 33
     defaultConfig {
         applicationId "com.dar.nclientv2"
-        minSdkVersion 21
+        minSdkVersion 23
         versionCode 305
         multiDexEnabled true
-        versionName "3.0.5-stable"
+        versionName "3.0.6-stable"
         vectorDrawables.useSupportLibrary true
         proguardFiles 'proguard-rules.pro'
     }
@@ -18,6 +18,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
             versionNameSuffix "-release"
             resValue "string", "app_name", "NClientV2"
+            signingConfig signingConfigs.debug
         }
         debug {
             applicationIdSuffix ".debug"
