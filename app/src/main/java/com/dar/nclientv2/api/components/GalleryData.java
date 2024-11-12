@@ -315,6 +315,7 @@ public class GalleryData implements Parcelable {
                 case 'p':
                 case 'j':
                 case 'g':
+                case 'w':
                     if (specialImages) {
                         cover = new Page(ImageType.COVER, Page.charToExt(actualChar));
                         thumbnail = new Page(ImageType.THUMBNAIL, Page.charToExt(actualChar));

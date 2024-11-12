@@ -1,5 +1,8 @@
 package com.dar.nclientv2.api;
 
+import static android.graphics.Bitmap.CompressFormat.WEBP;
+
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
@@ -62,6 +65,7 @@ public class SimpleGallery extends GenericGallery {
         return this.tags.hasTags(tags);
     }
 
+    @SuppressLint("Range")
     public SimpleGallery(Cursor c) {
         title = c.getString(c.getColumnIndex(Queries.HistoryTable.TITLE));
         id = c.getInt(c.getColumnIndex(Queries.HistoryTable.ID));
@@ -80,7 +84,8 @@ public class SimpleGallery extends GenericGallery {
         a = e.getElementsByTag("img").first();
         temp = a.hasAttr("data-src") ? a.attr("data-src") : a.attr("src");
         mediaId = Integer.parseInt(temp.substring(temp.indexOf("galleries") + 10, temp.lastIndexOf('/')));
-        thumbnail = Page.charToExt(temp.charAt(temp.length() - 3));
+        String extension = temp.substring(temp.lastIndexOf('.') + 1);
+        thumbnail = Page.charToExt(extension.charAt(0));
         title = e.getElementsByTag("div").first().text();
         if (context != null && id > Global.getMaxId()) Global.updateMaxId(context, id);
     }
@@ -93,6 +98,9 @@ public class SimpleGallery extends GenericGallery {
     }
 
     private static String extToString(ImageExt ext) {
+        if (ext == null) {
+            return null;
+        }
         switch (ext) {
             case GIF:
                 return "gif";
@@ -100,6 +108,8 @@ public class SimpleGallery extends GenericGallery {
                 return "png";
             case JPG:
                 return "jpg";
+            case WEBP:
+                return "webp";
         }
         return null;
     }
