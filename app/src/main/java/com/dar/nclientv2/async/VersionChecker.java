@@ -29,8 +29,8 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class VersionChecker {
-    private static final String RELEASE_API_URL = "https://api.github.com/repos/Dar9586/NClientV2/releases";
-    private static final String LATEST_RELEASE_URL = "https://github.com/Dar9586/NClientV2/releases/latest";
+    private static final String RELEASE_API_URL = "https://api.github.com/repos/shirokun20/NClientV2/releases";
+    private static final String LATEST_RELEASE_URL = "https://github.com/shirokun20/NClientV2/releases/latest";
     private static final String RELEASE_TYPE = BuildConfig.DEBUG ? "Debug" : "Release";
     private static String latest = null;
     private final AppCompatActivity context;

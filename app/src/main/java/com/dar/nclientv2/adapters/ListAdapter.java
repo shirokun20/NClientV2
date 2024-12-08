@@ -3,6 +3,7 @@ package com.dar.nclientv2.adapters;
 import android.content.Intent;
 import android.os.Build;
 import android.text.Layout;
+import android.util.Log;
 import android.util.SparseIntArray;
 import android.view.LayoutInflater;
 import android.view.View;

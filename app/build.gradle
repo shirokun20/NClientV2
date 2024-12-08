@@ -7,7 +7,7 @@ android {
         minSdkVersion 23
         versionCode 305
         multiDexEnabled true
-        versionName "3.0.6-stable"
+        versionName "3.0.7-beta"
         vectorDrawables.useSupportLibrary true
         proguardFiles 'proguard-rules.pro'
     }
