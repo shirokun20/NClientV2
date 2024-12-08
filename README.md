@@ -1,14 +1,16 @@
 # NClientV2
 
-[![Github](https://img.shields.io/github/v/release/Dar9586/NClientV2.svg?logo=github)](https://github.com/Dar9586/NClientV2/releases/latest) [![F-Droid](https://img.shields.io/f-droid/v/com.dar.nclientv2)](https://f-droid.org/en/packages/com.dar.nclientv2/) ![Bitrise](https://img.shields.io/bitrise/0a79e29cfda80c5f?token=BrSKdUUfKb97MHigL9nA1w)
+[![Github](https://img.shields.io/github/v/release/shirokun20/NClientV2.svg?logo=github)](https://github.com/shirokun20/NClientV2/releases/latest) 
+
+## Note
+
+This is fork repo, im using for learning and converting from kotlin/java to other language 
+
+## Info
 
 An unofficial NHentai Android Client.
 This app  works for devices from API 14 (Android 4.0) and above.
-Releases: <https://github.com/Dar9586/NClientV2/releases>
-
-## Translation
-
-You can translate this app on [Crowdin](https://crowdin.com/project/nclientv2)
+Releases: <https://github.com/shirokun20/NClientV2/releases>
 
 ## API Features
 
@@ -28,11 +30,9 @@ You can translate this app on [Crowdin](https://crowdin.com/project/nclientv2)
 
 ## App Screen
 
-Main page|Lateral menu
+Main page|Random manga
 :-:|:-:
-![Main page](https://raw.githubusercontent.com/Dar9586/NClientV2/master/fastlane/metadata/android/en-US/images/phoneScreenshots/img1.jpg)|![Lateral menu](https://media.discordapp.net/attachments/608725424092086280/720369411030253578/Screenshot_20200610-230229_NClientV2.jpg?width=360&height=658)
-Search|Random manga
-![Search](https://media.discordapp.net/attachments/608725424092086280/720369411030253578/Screenshot_20200610-230229_NClientV2.jpg?width=360&height=658)|![Random manga](https://raw.githubusercontent.com/Dar9586/NClientV2/master/fastlane/metadata/android/en-US/images/phoneScreenshots/img4.jpg)
+![Main page](https://raw.githubusercontent.com/Dar9586/NClientV2/master/fastlane/metadata/android/en-US/images/phoneScreenshots/img1.jpg)|![Random manga](https://raw.githubusercontent.com/Dar9586/NClientV2/master/fastlane/metadata/android/en-US/images/phoneScreenshots/img4.jpg)
 
 ## Contributors
 
@@ -64,9 +64,7 @@ Search|Random manga
 
 ## Donation
 
-Paypal|Liberapay|Bitcoin
-:-:|:-:|:-:
-[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CVMR2STUSVE6U)|[![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/Dar9586/donate)|[113U1W3BxrAzyFWgP7HXqMfB3nF6MpHj6p](https://www.blockchain.com/btc/address/113U1W3BxrAzyFWgP7HXqMfB3nF6MpHj6p)
+No need for me
 
 ## License
 
